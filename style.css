@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+    background: #0f172a;
+    color: #e5e7eb;
+    line-height: 1.6;
+}
+
+/* HERO */
+.hero {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 40px;
+    background: linear-gradient(135deg, #020617, #0f172a);
+}
+
+.hero h1 {
+    font-size: 3.2rem;
+    color: #38bdf8;
+}
+
+.hero h2 {
+    margin-top: 10px;
+    font-weight: 400;
+}
+
+.subtitle {
+    margin: 15px 0 30px;
+    color: #94a3b8;
+}
+
+/* BUTTONS */
+.actions {
+    display: flex;
+    gap: 15px;
+}
+
+.btn {
+    padding: 12px 22px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.btn.primary {
+    background: #38bdf8;
+    color: #020617;
+}
+
+.btn.primary:hover {
+    background: #0ea5e9;
+}
+
+.btn.secondary {
+    border: 1px solid #38bdf8;
+    color: #38bdf8;
+}
+
+.btn.secondary:hover {
+    background: #38bdf8;
+    color: #020617;
+}
+
+.large {
+    font-size: 1.1rem;
+}
+
+/* SECTIONS */
+.section {
+    padding: 70px 15%;
+}
+
+.section.dark {
+    background: #020617;
+}
+
+.section h3 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #38bdf8;
+}
+
+.list {
+    margin-left: 20px;
+}
+
+.list li {
+    margin-bottom: 10px;
+}
+
+.note {
+    margin-top: 20px;
+    font-style: italic;
+    color: #94a3b8;
+}
+
+/* SKILLS */
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.skills span {
+    background: #020617;
+    padding: 8px 14px;
+    border-radius: 20px;
+    border: 1px solid #38bdf8;
+    font-size: 0.9rem;
+}
+
+/* DOWNLOAD */
+.download {
+    text-align: center;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 30px;
+    background: #020617;
+    font-size: 0.9rem;
+    color: #94a3b8;
+}
