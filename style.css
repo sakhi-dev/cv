@@ -252,3 +252,37 @@ footer {
     transform: translateY(-4px);
     box-shadow: 0 10px 30px rgba(0, 198, 255, 0.6);
 }
+
+
+.file-description {
+    background: #020617;
+    border: 1px solid #38bdf8;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 15px;
+    color: #e5e7eb;
+}
+
+.file-description h4 {
+    color: #38bdf8;
+    margin-bottom: 10px;
+}
+
+.file-description pre {
+    background: #111827;
+    padding: 10px;
+    border-radius: 8px;
+    overflow-x: auto;
+    font-family: monospace;
+    color: #7dd3fc;
+}
+
+.file-description ul,
+.file-description ol {
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.file-description li {
+    margin-bottom: 5px;
+}
